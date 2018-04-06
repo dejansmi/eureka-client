@@ -20,6 +20,8 @@ class EurekaClientRestController {
 
 	}
 
+
+
 	@RequestMapping("/testnew/**")
 	public String others(HttpServletRequest req) {
 		logger.info("test-new OTHERS() invoked");
